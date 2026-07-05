@@ -18,7 +18,7 @@ def issue_preview_node(state: AgentState):
 
     prompt= f"""
     The user wants to create a Github issues. Extract the repo, title, 
-    body and an appropriate list of labels (e.g. ["bug", "help wanted"]) from this respect:
+    body and an appropriate list of labels (e.g. ["bug", "help wanted"]) from this request:
     {user_message}
 
     You must respond with exactly this JSON format and nothing else:
