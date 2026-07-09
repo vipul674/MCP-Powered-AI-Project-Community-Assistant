@@ -6,7 +6,7 @@ A completely local, privacy-first AI Assistant built with LangGraph, FastAPI, an
 
 *   **LangGraph Orchestration**: Uses a deterministic router to parse user intent and direct traffic to specialized worker nodes.
 *   **Model Context Protocol (MCP)**: Implements standard standard I/O server architecture to expose GitHub API tools securely.
-*   **Local RAG (Retrieval-Augmented Generation)**: Uses HuggingFace embeddings (`all-MiniLM-L6-v2`) and FAISS to chunk, store, and semantically search uploaded PDFs and text files without relying on paid APIs.
+*   **Local RAG (Retrieval-Augmented Generation)**: Uses Ollama embeddings (`nomic-embed-text`) and FAISS to chunk, store, and semantically search uploaded PDFs and text files without relying on paid APIs.
 *   **Live Web Search**: Integrates DuckDuckGo via LangChain community tools for real-time web querying.
 *   **100% Local Inference**: Runs entirely on open-weights models (via Ollama) ensuring absolute data privacy.
 *   **Dual-Container Docker Deployment**: Fully dockerized backend (FastAPI) and frontend (Streamlit) communicating over a private virtual network.

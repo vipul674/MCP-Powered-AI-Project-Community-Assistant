@@ -14,10 +14,10 @@ structured_llm = llm.with_structured_output(Route)
 
 system_prompt = """You are an intelligent router for a community assistant.
 Analyze the user's message and route them to the correct department:
-- 'github': If they are asking about repositories, stars, code, or HitHub metadata.
-- 'docs': If they are asking to read documentation or upload files (we will build this later).
+- 'github': If they are asking about repositories, stars, code, reading/checking existing issues, or GitHub metadata.
+- 'docs': If they are asking to read documentation or upload files.
 - 'web': If they are asking for real-time news, general knowledge, weather, stock prices, or internet search.
-- 'issue': If they are asking to create or manage a Github issue (we will build this later).
+- 'issue': ONLY if they are explicitly asking to CREATE a new Github issue.
 - 'fallback': For basic greetings, unknown requests, or anything else.
 
 You MUST respond with a valid JSON object containing exactly one key 'step', whose value is one of the strings above. Do not include any other text or markdown formatting.

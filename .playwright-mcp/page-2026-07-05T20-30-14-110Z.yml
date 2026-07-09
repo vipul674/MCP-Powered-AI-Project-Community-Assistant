@@ -1,0 +1,39 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e8]:
+    - heading "📄 Knowledge Base" [level=2] [ref=f3e12]
+    - generic [ref=f3e14]:
+      - paragraph [ref=f3e18]: Upload a PDF or TXT
+      - region "Upload a PDF or TXT" [ref=f3e19] [cursor=pointer]:
+        - button "Choose File" [ref=f3e20]
+        - generic [ref=f3e121]:
+          - generic "test_upload_doc.txt, 57.0B" [ref=f3e124]:
+            - img [ref=f3e126]
+            - generic [ref=f3e129]:
+              - generic "test_upload_doc.txt" [ref=f3e130]
+              - generic [ref=f3e131]: 57.0B
+            - button "Remove test_upload_doc.txt" [ref=f3e133]:
+              - img [ref=f3e134]
+          - button "Add files" [ref=f3e137]:
+            - generic [ref=f3e141]: add
+    - button "Process Document" [ref=f3e144] [cursor=pointer]:
+      - paragraph [ref=f3e148]: Process Document
+  - generic [ref=f3e34]:
+    - banner [ref=f3e35]:
+      - generic [ref=f3e38]:
+        - button "Deploy" [ref=f3e40] [cursor=pointer]:
+          - generic [ref=f3e42]: Deploy
+        - button "Main menu" [active] [ref=f3e44] [cursor=pointer]:
+          - img [ref=f3e45]
+    - generic [ref=f3e48]:
+      - generic [ref=f3e50]:
+        - heading "🤖 MCP-Powered AI Assistant" [level=1] [ref=f3e55]:
+          - text: 🤖 MCP-Powered AI Assistant
+          - generic [ref=f3e56]:
+            - link "Link to heading":
+              - /url: "#mcp-powered-ai-assistant"
+              - img
+        - paragraph [ref=f3e61]: Welcome to your intelligent Community Assisstant! Ask me to search Github, query your uploaded PDFs, or search the live web.
+      - generic [ref=f3e70]:
+        - textbox "Ask me about the Github repository..." [ref=f3e74]
+        - button "Send message" [disabled] [ref=f3e76]:
+          - img [ref=f3e77]

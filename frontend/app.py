@@ -1,6 +1,3 @@
-from streamlit.runtime import uploaded_file_manager
-from httpx._transports.default import ResponseStream
-from streamlit import chat_message
 import streamlit as st
 import httpx
 import json
@@ -20,13 +17,13 @@ st.markdown("""
         }
 
         /* Darken and style the sidebar */
-        [data-testid="stSidebar] {
+        [data-testid="stSidebar"] {
         background-color: #12141a;
         border-right: 1px solid #2b2b36;
         }
 
         /* Make headers pop with a brand color */
-        h1, h2, h2 {
+        h1, h2, h3 {
             color: #4da6ff !important;
             font-family: 'Inter', sans-serif;
             }
@@ -93,18 +90,19 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         render_messages(msg["content"])
 
-# 1. Check if the user clicked the Confirm button, otherwise show chat input
+# 1. ALWAYS render the chat input so it never disappears from the screen
+user_input = st.chat_input("Ask me about the Github repository...")
+
 prompt = None
 is_hidden = False
 
+# 2. Check if a button was clicked, otherwise use the typed input
 if "trigger_confirm" in st.session_state and st.session_state.trigger_confirm:
     prompt = f"/confirm_issue {st.session_state.trigger_confirm}"
     st.session_state.trigger_confirm = None
     is_hidden = True
-else:
-    user_input = st.chat_input("Ask me about the Github repository...")
-    if user_input:
-        prompt = user_input
+elif user_input:
+    prompt = user_input
 
 # 2. Process the prompt
 if prompt:

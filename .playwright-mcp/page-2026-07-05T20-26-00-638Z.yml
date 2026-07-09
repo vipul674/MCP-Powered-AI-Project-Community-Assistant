@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - heading "📄 Knowledge Base" [level=2] [ref=e15]
+    - generic [ref=e17]:
+      - paragraph [ref=e21]: Upload a PDF or TXT
+      - region "Upload a PDF or TXT" [ref=e22] [cursor=pointer]:
+        - button "Choose File" [ref=e23]
+        - button "upload Upload" [ref=e25]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: upload
+            - paragraph [ref=e31]: Upload
+        - generic [ref=e34]: 200MB per file • PDF, TXT, MD
+  - generic [ref=e3]:
+    - banner [ref=e37]:
+      - generic [ref=e40]:
+        - button "Deploy" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Deploy
+        - button "Main menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e47]
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - heading "🤖 MCP-Powered AI Assistant" [level=1] [ref=e57]:
+          - text: 🤖 MCP-Powered AI Assistant
+          - generic [ref=e58]:
+            - link "Link to heading":
+              - /url: "#mcp-powered-ai-assistant"
+              - img
+        - paragraph [ref=e66]: Welcome to your intelligent Community Assisstant! Ask me to search Github, query your uploaded PDFs, or search the live web.
+        - generic [ref=e94]:
+          - generic [ref=e97]: face
+          - generic "Chat message from user" [ref=e98]:
+            - paragraph [ref=e104]: Search for fastapi repos on GitHub
+        - generic [ref=e106]:
+          - generic [ref=e109]: smart_toy
+          - generic "Chat message from assistant" [ref=e110]:
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: "Here are the top 10 FastAPI‑related repositories that match a generic “fastapi” search on GitHub (sorted by current star count):"
+              - table [ref=e117]:
+                - rowgroup [ref=e118]:
+                  - row "# Repository Description Stars Link" [ref=e119]:
+                    - columnheader "#" [ref=e120]
+                    - columnheader "Repository" [ref=e121]
+                    - columnheader "Description" [ref=e122]
+                    - columnheader "Stars" [ref=e123]
+                    - columnheader "Link" [ref=e124]
+                - rowgroup [ref=e125]:
+                  - row "1 fastapi/fastapi The official FastAPI framework – high performance, easy to learn, production‑ready. ≈ 100 k https://github.com/fastapi/fastapi" [ref=e126]:
+                    - cell "1" [ref=e127]
+                    - cell "fastapi/fastapi" [ref=e128]:
+                      - strong [ref=e129]: fastapi/fastapi
+                    - cell "The official FastAPI framework – high performance, easy to learn, production‑ready." [ref=e130]
+                    - cell "≈ 100 k" [ref=e131]:
+                      - strong [ref=e132]: ≈ 100 k
+                    - cell "https://github.com/fastapi/fastapi" [ref=e133]:
+                      - link "https://github.com/fastapi/fastapi" [ref=e134] [cursor=pointer]:
+                        - /url: https://github.com/fastapi/fastapi
+                  - row "2 fastapi/full-stack-fastapi-template A modern full‑stack starter (FastAPI + React + SQLModel + PostgreSQL + Docker + GitHub Actions, automatic HTTPS, etc.). ≈ 44 k https://github.com/fastapi/full-stack-fastapi-template" [ref=e135]:
+                    - cell "2" [ref=e136]
+                    - cell "fastapi/full-stack-fastapi-template" [ref=e137]:
+                      - strong [ref=e138]: fastapi/full-stack-fastapi-template
+                    - cell "A modern full‑stack starter (FastAPI + React + SQLModel + PostgreSQL + Docker + GitHub Actions, automatic HTTPS, etc.)." [ref=e139]
+                    - cell "≈ 44 k" [ref=e140]:
+                      - strong [ref=e141]: ≈ 44 k
+                    - cell "https://github.com/fastapi/full-stack-fastapi-template" [ref=e142]:
+                      - link "https://github.com/fastapi/full-stack-fastapi-template" [ref=e143] [cursor=pointer]:
+                        - /url: https://github.com/fastapi/full-stack-fastapi-template
+                  - row "3 zhanymkanov/fastapi-best-practices A collection of best‑practice patterns & conventions used at a startup. ≈ 17 k https://github.com/zhanymkanov/fastapi-best-practices" [ref=e144]:
+                    - cell "3" [ref=e145]
+                    - cell "zhanymkanov/fastapi-best-practices" [ref=e146]:
+                      - strong [ref=e147]: zhanymkanov/fastapi-best-practices
+                    - cell "A collection of best‑practice patterns & conventions used at a startup." [ref=e148]
+                    - cell "≈ 17 k" [ref=e149]:
+                      - strong [ref=e150]: ≈ 17 k
+                    - cell "https://github.com/zhanymkanov/fastapi-best-practices" [ref=e151]:
+                      - link "https://github.com/zhanymkanov/fastapi-best-practices" [ref=e152] [cursor=pointer]:
+                        - /url: https://github.com/zhanymkanov/fastapi-best-practices
+                  - row "4 tadata-org/fastapi_mcp Exposes FastAPI endpoints as Model Context Protocol (MCP) tools, with built‑in auth. ≈ 12 k https://github.com/tadata-org/fastapi_mcp" [ref=e153]:
+                    - cell "4" [ref=e154]
+                    - cell "tadata-org/fastapi_mcp" [ref=e155]:
+                      - strong [ref=e156]: tadata-org/fastapi_mcp
+                    - cell "Exposes FastAPI endpoints as Model Context Protocol (MCP) tools, with built‑in auth." [ref=e157]
+                    - cell "≈ 12 k" [ref=e158]:
+                      - strong [ref=e159]: ≈ 12 k
+                    - cell "https://github.com/tadata-org/fastapi_mcp" [ref=e160]:
+                      - link "https://github.com/tadata-org/fastapi_mcp" [ref=e161] [cursor=pointer]:
+                        - /url: https://github.com/tadata-org/fastapi_mcp
+                  - row "5 mjhea0/awesome-fastapi Curated list of awesome resources, libraries, tutorials, and tools related to FastAPI. ≈ 11 k https://github.com/mjhea0/awesome-fastapi" [ref=e162]:
+                    - cell "5" [ref=e163]
+                    - cell "mjhea0/awesome-fastapi" [ref=e164]:
+                      - strong [ref=e165]: mjhea0/awesome-fastapi
+                    - cell "Curated list of awesome resources, libraries, tutorials, and tools related to FastAPI." [ref=e166]
+                    - cell "≈ 11 k" [ref=e167]:
+                      - strong [ref=e168]: ≈ 11 k
+                    - cell "https://github.com/mjhea0/awesome-fastapi" [ref=e169]:
+                      - link "https://github.com/mjhea0/awesome-fastapi" [ref=e170] [cursor=pointer]:
+                        - /url: https://github.com/mjhea0/awesome-fastapi
+                  - row "6 fastapiadmin/FastapiAdmin (FastapiAdmin) Open‑source admin platform built on FastAPI + SQLAlchemy (backend) and Vue 3 + TypeScript (frontend). ≈ 915 https://github.com/fastapiadmin/FastapiAdmin" [ref=e171]:
+                    - cell "6" [ref=e172]
+                    - cell "fastapiadmin/FastapiAdmin (FastapiAdmin)" [ref=e173]:
+                      - strong [ref=e174]: fastapiadmin/FastapiAdmin
+                      - text: (FastapiAdmin)
+                    - cell "Open‑source admin platform built on FastAPI + SQLAlchemy (backend) and Vue 3 + TypeScript (frontend)." [ref=e175]
+                    - cell "≈ 915" [ref=e176]:
+                      - strong [ref=e177]: ≈ 915
+                    - cell "https://github.com/fastapiadmin/FastapiAdmin" [ref=e178]:
+                      - link "https://github.com/fastapiadmin/FastapiAdmin" [ref=e179] [cursor=pointer]:
+                        - /url: https://github.com/fastapiadmin/FastapiAdmin
+                  - row "7 fastapi-users/fastapi-users Ready‑to‑use, extensible user‑management (authentication, registration, OAuth, etc.) for FastAPI. ≈ 6 k https://github.com/fastapi-users/fastapi-users" [ref=e180]:
+                    - cell "7" [ref=e181]
+                    - cell "fastapi-users/fastapi-users" [ref=e182]:
+                      - strong [ref=e183]: fastapi-users/fastapi-users
+                    - cell "Ready‑to‑use, extensible user‑management (authentication, registration, OAuth, etc.) for FastAPI." [ref=e184]
+                    - cell "≈ 6 k" [ref=e185]:
+                      - strong [ref=e186]: ≈ 6 k
+                    - cell "https://github.com/fastapi-users/fastapi-users" [ref=e187]:
+                      - link "https://github.com/fastapi-users/fastapi-users" [ref=e188] [cursor=pointer]:
+                        - /url: https://github.com/fastapi-users/fastapi-users
+                  - row "8 remsky/Kokoro-FastAPI Dockerized FastAPI wrapper for the Kokoro‑82M text‑to‑speech model (CPU/GPU PyTorch support). ≈ 5 k https://github.com/remsky/Kokoro-FastAPI" [ref=e189]:
+                    - cell "8" [ref=e190]
+                    - cell "remsky/Kokoro-FastAPI" [ref=e191]:
+                      - strong [ref=e192]: remsky/Kokoro-FastAPI
+                    - cell "Dockerized FastAPI wrapper for the Kokoro‑82M text‑to‑speech model (CPU/GPU PyTorch support)." [ref=e193]
+                    - cell "≈ 5 k" [ref=e194]:
+                      - strong [ref=e195]: ≈ 5 k
+                    - cell "https://github.com/remsky/Kokoro-FastAPI" [ref=e196]:
+                      - link "https://github.com/remsky/Kokoro-FastAPI" [ref=e197] [cursor=pointer]:
+                        - /url: https://github.com/remsky/Kokoro-FastAPI
+                  - row "9 windson/fastapi A set of tutorials + deployment guides for FastAPI on cloud and on‑prem environments. ≈ 381 https://github.com/windson/fastapi" [ref=e198]:
+                    - cell "9" [ref=e199]
+                    - cell "windson/fastapi" [ref=e200]:
+                      - strong [ref=e201]: windson/fastapi
+                    - cell "A set of tutorials + deployment guides for FastAPI on cloud and on‑prem environments." [ref=e202]
+                    - cell "≈ 381" [ref=e203]:
+                      - strong [ref=e204]: ≈ 381
+                    - cell "https://github.com/windson/fastapi" [ref=e205]:
+                      - link "https://github.com/windson/fastapi" [ref=e206] [cursor=pointer]:
+                        - /url: https://github.com/windson/fastapi
+                  - row "10 railwayapp-templates/fastapi Minimal FastAPI starter template used by Railway.app. ≈ 58 https://github.com/railwayapp-templates/fastapi" [ref=e207]:
+                    - cell "10" [ref=e208]
+                    - cell "railwayapp-templates/fastapi" [ref=e209]:
+                      - strong [ref=e210]: railwayapp-templates/fastapi
+                    - cell "Minimal FastAPI starter template used by Railway.app." [ref=e211]
+                    - cell "≈ 58" [ref=e212]:
+                      - strong [ref=e213]: ≈ 58
+                    - cell "https://github.com/railwayapp-templates/fastapi" [ref=e214]:
+                      - link "https://github.com/railwayapp-templates/fastapi" [ref=e215] [cursor=pointer]:
+                        - /url: https://github.com/railwayapp-templates/fastapi
+              - paragraph [ref=e216]:
+                - strong [ref=e217]: What to do next?
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - strong [ref=e220]: If you need the framework itself
+                  - text: – clone
+                  - code [ref=e221]: fastapi/fastapi
+                  - text: .
+                - listitem [ref=e222]:
+                  - strong [ref=e223]: If you want a ready‑made full‑stack project
+                  - text: – check out
+                  - code [ref=e224]: fastapi/full-stack-fastapi-template
+                  - text: .
+                - listitem [ref=e225]:
+                  - strong [ref=e226]: For best‑practice guidance
+                  - text: – read
+                  - code [ref=e227]: zhanymkanov/fastapi-best-practices
+                  - text: .
+                - listitem [ref=e228]:
+                  - strong [ref=e229]: Looking for admin UI, auth, or TTS integrations
+                  - text: – the other repos listed above may be what you need.
+              - paragraph [ref=e230]: Let me know if you’d like more details (e.g., README excerpts or installation steps) for any specific repository!
+      - generic [ref=e75]:
+        - textbox "Ask me about the Github repository..." [active] [ref=e79]
+        - button "Send message" [disabled] [ref=e81]:
+          - img [ref=e82]

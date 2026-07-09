@@ -1,4 +1,3 @@
-from app.agents.graph import run_graph
 from app.api.github import router as github_router
 from fastapi import FastAPI
 from pydantic import BaseModel

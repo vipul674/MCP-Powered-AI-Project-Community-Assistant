@@ -1,0 +1,31 @@
+- generic [ref=e2]:
+  - generic [ref=e11]:
+    - heading "📄 Knowledge Base" [level=2] [ref=e15]
+    - generic [ref=e17]:
+      - paragraph [ref=e21]: Upload a PDF or TXT
+      - region "Upload a PDF or TXT" [ref=e22] [cursor=pointer]:
+        - button "Choose File" [ref=e23]
+        - button "upload Upload" [ref=e25]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: upload
+            - paragraph [ref=e31]: Upload
+        - generic [ref=e34]: 200MB per file • PDF, TXT, MD
+  - generic [ref=e3]:
+    - banner [ref=e37]:
+      - generic [ref=e40]:
+        - button "Deploy" [ref=e42] [cursor=pointer]:
+          - generic [ref=e44]: Deploy
+        - button "Main menu" [ref=e46] [cursor=pointer]:
+          - img [ref=e47]
+    - generic [active] [ref=e50]:
+      - generic [ref=e52]:
+        - heading "🤖 MCP-Powered AI Assistant" [level=1] [ref=e57]:
+          - text: 🤖 MCP-Powered AI Assistant
+          - link "Link to heading" [ref=e59] [cursor=pointer]:
+            - /url: "#mcp-powered-ai-assistant"
+            - img [ref=e60]
+        - paragraph [ref=e66]: Welcome to your intelligent Community Assisstant! Ask me to search Github, query your uploaded PDFs, or search the live web.
+      - generic [ref=e75]:
+        - textbox "Ask me about the Github repository..." [ref=e79]
+        - button "Send message" [disabled] [ref=e81]:
+          - img [ref=e82]

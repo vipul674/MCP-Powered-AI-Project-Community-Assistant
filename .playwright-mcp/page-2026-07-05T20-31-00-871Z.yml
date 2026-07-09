@@ -1,0 +1,59 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e8]:
+    - heading "📄 Knowledge Base" [level=2] [ref=f3e12]
+    - generic [ref=f3e14]:
+      - paragraph [ref=f3e18]: Upload a PDF or TXT
+      - region "Upload a PDF or TXT" [ref=f3e19] [cursor=pointer]:
+        - button "Choose File" [ref=f3e20]
+        - generic [ref=f3e121]:
+          - generic "test_upload_doc.txt, 57.0B" [ref=f3e124]:
+            - img [ref=f3e126]
+            - generic [ref=f3e129]:
+              - generic "test_upload_doc.txt" [ref=f3e130]
+              - generic [ref=f3e131]: 57.0B
+            - button "Remove test_upload_doc.txt" [ref=f3e133]:
+              - img [ref=f3e134]
+          - button "Add files" [ref=f3e137]:
+            - generic [ref=f3e141]: add
+    - button "Process Document" [ref=f3e144] [cursor=pointer]:
+      - paragraph [ref=f3e148]: Process Document
+  - generic [ref=f3e34]:
+    - banner [ref=f3e35]:
+      - generic [ref=f3e38]:
+        - button "Deploy" [ref=f3e40] [cursor=pointer]:
+          - generic [ref=f3e42]: Deploy
+        - button "Main menu" [ref=f3e44] [cursor=pointer]:
+          - img [ref=f3e45]
+    - generic [ref=f3e48]:
+      - generic [ref=f3e50]:
+        - heading "🤖 MCP-Powered AI Assistant" [level=1] [ref=f3e55]:
+          - text: 🤖 MCP-Powered AI Assistant
+          - generic [ref=f3e56]:
+            - link "Link to heading":
+              - /url: "#mcp-powered-ai-assistant"
+              - img
+        - paragraph [ref=f3e61]: Welcome to your intelligent Community Assisstant! Ask me to search Github, query your uploaded PDFs, or search the live web.
+        - generic [ref=f3e169]:
+          - generic [ref=f3e172]: face
+          - generic "Chat message from user" [ref=f3e173]:
+            - paragraph [ref=f3e179]: search my uploaded documents for information about MCP community assistant
+        - generic [ref=f3e181]:
+          - generic [ref=f3e184]: smart_toy
+          - generic "Chat message from assistant" [ref=f3e185]:
+            - generic [ref=f3e190]:
+              - paragraph [ref=f3e191]:
+                - text: I located a document in your uploaded files that references the
+                - strong [ref=f3e192]: MCP Community Assistant
+                - text: ". Here’s what the document contains:"
+              - list [ref=f3e193]:
+                - listitem [ref=f3e194]:
+                  - strong [ref=f3e195]: "Title/Heading:"
+                  - text: “This is a test document for the MCP community assistant.”
+                - listitem [ref=f3e196]:
+                  - strong [ref=f3e197]: "Content:"
+                  - text: The document appears to be a placeholder or test file and includes the line “test content for pdf.”
+              - paragraph [ref=f3e198]: No additional details, specifications, or functional descriptions about the MCP Community Assistant are present in the uploaded material. If you have other documents you’d like me to search, or if you need a deeper dive into a particular aspect of the MCP Community Assistant, just let me know!
+      - generic [ref=f3e70]:
+        - textbox "Ask me about the Github repository..." [active] [ref=f3e74]: search my uploaded documents for information about MCP
+        - button "Send message" [ref=f3e76] [cursor=pointer]:
+          - img [ref=f3e77]

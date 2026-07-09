@@ -1,4 +1,4 @@
-from langchain_community.tools import tool
+from langchain_core.tools import tool
 from app.services.github_client import github_client
 import base64
 import os
@@ -22,24 +22,29 @@ def get_repository_readme(owner: str, repo: str) -> str:
     """Fetch the decoded readme content of a repository."""
     try:
         data = github_client.get(f"/repos/{owner}/{repo}/readme")
-
         content_b64 = data.get("content", "")
+        if not content_b64:
+            return "README has no content."
         return base64.b64decode(content_b64).decode("utf-8")
     except Exception as e:
         return f"Could not fetch README: {e}"
 
 def get_repository_metadata(owner: str, repo: str) -> dict:
     """Fetch basic metadata about a repository"""
-
-    data = github_client.get(f"/repos/{owner}/{repo}")
-
-    return {
-        "name": data.get("full_name"),
-        "description": data.get("description"),
-        "language": data.get("language"),
-        "open_issues": data.get("open_issues_count"),
-        "topics": data.get("topics", [])
-    }
+    try:
+        data = github_client.get(f"/repos/{owner}/{repo}")
+        return {
+            "name": data.get("full_name"),
+            "description": data.get("description"),
+            "language": data.get("language"),
+            "open_issues": data.get("open_issues_count"),
+            "topics": data.get("topics", [])
+        }
+    except Exception as e:
+        return {
+            "error": f"Could not fetch repository metadata: {e}",
+            "name": f"{owner}/{repo}"
+        }
 
 @tool
 def create_github_issue(repo: str, title: str, body: str, labels: list[str] = None) -> str:

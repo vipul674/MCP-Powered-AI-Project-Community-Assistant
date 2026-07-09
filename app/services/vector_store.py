@@ -1,4 +1,3 @@
-from fastapi import FastAPI
 from langchain_community.vectorstores import FAISS
 from app.services.embeddings import embeddings_model
 import os
